@@ -23,6 +23,9 @@ We used the trained model to make predictions on a new set of "test" wells. The 
 ### 3. Visualization & Validation
 Finally, we compared the model's predictions against the "true" ROP values from our test set. We created comparison plots for each test well to visually confirm how well the model's predictions (red line) matched the actual ROP (blue line) versus depth.
 
+![Example ROP Comparison Plot](S1_averaged.png)
+*(Note: This path assumes you've saved your plots in this folder in your repo)*
+
 ## Key Technologies Used
 * **Python 3**
 * **Pandas & NumPy** (For all data cleaning and manipulation)
