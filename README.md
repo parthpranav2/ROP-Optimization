@@ -5,7 +5,7 @@ This repository contains a data science project for a university course. The goa
 ## Project Goal
 
 The main objective is to build a model that can predict **ROP** based on two sets of inputs:
-1.  **Rock Properties** (from well logs like `GR`, `RHOB`, `NPHI`)
+1.  **Rock Properties** (from well logs like `D`, `TVDSS`, `NPHI`, `GR`, `RHOB`, `ILL_DW`, `ILM_DW`, `MSFL_DW`, `CNL`)
 2.  **Driller's Actions** (controllable parameters like `Wt_on_bit`, `Surface_RPM`)
 
 An accurate model like this is the first step toward building a recommendation system that can help a driller optimize their settings to drill faster and more efficiently.
