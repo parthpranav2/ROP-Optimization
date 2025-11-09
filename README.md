@@ -1,4 +1,4 @@
-# 🤖 ROP Optimization - A Machine Learning Project
+# 🤖 ROP Optimization
 
 This repository contains a data science project for a university course. The goal is to build, train, and validate a machine learning model that can predict the Rate of Penetration (ROP) during well drilling.
 
