@@ -14,8 +14,8 @@ An accurate model like this is the first step toward building a recommendation s
 
 We followed a complete data science workflow from data generation to validation.
 
-### 1. Model Training
-We combined all 27 well files into one large, clean master dataset. We then trained an **`XGBoost Regressor`** model on this data. This model learned the complex, non-linear relationship between all the inputs and the final ROP. The trained model is saved as `rop_model.joblib`.
+### 1. Model Training & Comparison
+We combined all 27 well files into one large, clean master dataset. We then trained and compared two powerful models: a **`RandomForestRegressor`** and an **`XGBoost Regressor`**. Both were evaluated for their accuracy, and the `XGBoost` model was selected for its superior performance in learning the complex, non-linear relationship. The final trained model is saved as `rop_model.joblib`.
 
 ### 2. Model Scoring (Prediction)
 We used the trained model to make predictions on a new set of "test" wells. The script "scores" these test files and saves the new predictions as a `rop_avg_prediction` column.
@@ -38,4 +38,5 @@ Finally, we compared the model's predictions against the "true" ROP values from 
 * **Pandas & NumPy** (For all data cleaning and manipulation)
 * **Scikit-learn** (For splitting data and measuring error)
 * **XGBoost** (The core machine learning model)
+* **RandomForest** (Runner up in comparison)
 * **Seaborn & Matplotlib** (For creating the final comparison plots)
